@@ -4,11 +4,16 @@ import SearchIcon from "@mui/icons-material/Search";
 import Badge from "@mui/material/Badge";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Mobile } from "./Responsive";
+import { Link } from "react-router-dom";
 
 // This is our NavBar
 const Container = styled.div`
   hegiht: 60px;
-  ${Mobile({ margin: "10px 0px", height: "50px", padding: "0px 10px" })}
+  ${Mobile({
+    margin: "10px 0px",
+    height: "50px",
+    padding: "0px 10px",
+  })}
 `;
 // This is our naveBar Left
 
@@ -72,7 +77,9 @@ export default function navebar() {
             <Language>En</Language>
             <SearchContainer>
               <Input placeholder="search" />
-              <SearchIcon style={{ color: "gray", fontSize: "24px" }} />
+              <SearchIcon
+                style={{ color: "gray", fontSize: "24px" }}
+              />
             </SearchContainer>
           </Left>
           <Center>

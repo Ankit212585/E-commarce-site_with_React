@@ -36,9 +36,6 @@ const Input = styled.input`
   padding: 5px 10px;
   border: 1px solid lightgray;
   outline: none;
-   
-
- 
 `;
 const Title = styled.h1`
   text-align: center;
@@ -74,6 +71,7 @@ export default function Login() {
             <Input type="text" placeholder="Password" />
             <Button>Log In</Button>
             <Link>Do Not remember your Password</Link>
+
             <Link>Create a New Account</Link>
           </Form>
         </Wrapper>
