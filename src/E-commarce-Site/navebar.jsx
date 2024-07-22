@@ -87,15 +87,25 @@ export default function navebar() {
           </Center>
           <Right>
             <Link to="/Register">
-              <Menuitem>REGISTER</Menuitem>
+              <Menuitem
+                style={{ color: "black", textDecoration: "none" }}
+              >
+                REGISTER
+              </Menuitem>
             </Link>
-            <Link to="/SingUp">
-              <Menuitem>SIGN IN</Menuitem>
+            <Link to="/SingIn">
+              <Menuitem
+                style={{ color: "black", textDecoration: "none" }}
+              >
+                SIGN IN
+              </Menuitem>
             </Link>
             <Menuitem>
-              <Badge badgeContent={4} color="primary">
-                <ShoppingCartOutlinedIcon />
-              </Badge>
+              <Link to="/Cart">
+                <Badge badgeContent={4} color="primary">
+                  <ShoppingCartOutlinedIcon />
+                </Badge>
+              </Link>
             </Menuitem>
           </Right>
         </Wrapper>

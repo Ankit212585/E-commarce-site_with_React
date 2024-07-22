@@ -16,6 +16,7 @@ import {
 } from "react-router-dom";
 import Register from "./pages/Register";
 import SignUp from "./pages/Login";
+import Cart from "./pages/Cart";
 
 export default function index() {
   return (
@@ -23,10 +24,8 @@ export default function index() {
       <Router>
         <Routes>
           <Route path="/Register" Component={Register} />
-          <Route path="/SingUp" Component={SignUp} />
-          <Route path="/Register" Component={Register} />
-          <Route path="/Register" Component={Register} />
-          <Route path="/Register" Component={Register} />
+          <Route path="/SingIn" Component={SignUp} />
+          <Route path="/Cart" Component={Cart} />
         </Routes>
         <Announcement />
         <A1 />
