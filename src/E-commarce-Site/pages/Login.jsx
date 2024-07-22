@@ -69,7 +69,9 @@ export default function Login() {
           <Form>
             <Input type="text" placeholder="Username" />
             <Input type="text" placeholder="Password" />
-            <Button>Log In</Button>
+            <Link to="/Login">
+              <Button>Log In</Button>
+            </Link>
             <Link>Do Not remember your Password</Link>
 
             <Link>Create a New Account</Link>

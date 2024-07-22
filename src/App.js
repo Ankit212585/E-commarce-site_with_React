@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { PrimeReactProvider } from "primereact/api";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
-import A1 from "./E-commarce-Site/pages/Cart";
+import A1 from "./E-commarce-Site/index";
 
 function App() {
   return (

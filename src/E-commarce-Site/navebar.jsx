@@ -86,8 +86,12 @@ export default function navebar() {
             <Logo>Lama.</Logo>
           </Center>
           <Right>
-            <Menuitem>REGISTER</Menuitem>
-            <Menuitem>SIGN IN</Menuitem>
+            <Link to="/Register">
+              <Menuitem>REGISTER</Menuitem>
+            </Link>
+            <Link to="/SingUp">
+              <Menuitem>SIGN IN</Menuitem>
+            </Link>
             <Menuitem>
               <Badge badgeContent={4} color="primary">
                 <ShoppingCartOutlinedIcon />
