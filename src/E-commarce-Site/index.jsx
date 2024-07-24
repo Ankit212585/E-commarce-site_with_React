@@ -17,23 +17,22 @@ import {
 import Register from "./pages/Register";
 import SignUp from "./pages/Login";
 import Cart from "./pages/Cart";
+import Home from "./Home";
+import productlist from "./pages/Productlist";
+import Product from "./pages/product";
 
 export default function index() {
   return (
     <>
       <Router>
         <Routes>
+          <Route path="/" Component={Home} />
           <Route path="/Register" Component={Register} />
           <Route path="/SingIn" Component={SignUp} />
           <Route path="/Cart" Component={Cart} />
+          <Route path="/productlist" Component={productlist} />
+          <Route path="/Product" Component={Product} />
         </Routes>
-        <Announcement />
-        <A1 />
-        <Slider />
-        <Categories />
-        <Products />
-        <Newsletter />
-        <Footer />
       </Router>
     </>
   );

@@ -86,6 +86,20 @@ export default function navebar() {
             <Logo>Lama.</Logo>
           </Center>
           <Right>
+            <Link to="/">
+              <Menuitem
+                style={{ color: "black", textDecoration: "none" }}
+              >
+                Homepage
+              </Menuitem>
+            </Link>
+            <Link to="/productlist">
+              <Menuitem
+                style={{ color: "black", textDecoration: "none" }}
+              >
+                Product_list
+              </Menuitem>
+            </Link>
             <Link to="/Register">
               <Menuitem
                 style={{ color: "black", textDecoration: "none" }}

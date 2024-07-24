@@ -8,6 +8,7 @@ import FmdGoodIcon from "@mui/icons-material/FmdGood";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import { Mobile } from "./Responsive";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -86,10 +87,10 @@ export default function Footer() {
         <Left>
           <Logo>Lama.</Logo>
           <Desc>
-            There are many variations of passages of lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, and randomised words which dont't look even slightly
-            believable.
+            There are many variations of passages of lorem Ipsum
+            available, but the majority have suffered alteration in
+            some form, by injected humour, and randomised words which
+            dont't look even slightly believable.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -112,7 +113,9 @@ export default function Footer() {
           <Title>Useful links</Title>
           <List>
             <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
+            <Link to="/Product">
+              <ListItem>Cart</ListItem>
+            </Link>
             <ListItem>Man Fashion</ListItem>
             <ListItem>Woman Fashion</ListItem>
             <ListItem>Accessories</ListItem>
