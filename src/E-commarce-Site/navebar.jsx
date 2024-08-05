@@ -83,7 +83,7 @@ export default function navebar() {
             </SearchContainer>
           </Left>
           <Center>
-            <Logo>Lama.</Logo>
+            <Logo>Ankit.</Logo>
           </Center>
           <Right>
             <Link to="/">
